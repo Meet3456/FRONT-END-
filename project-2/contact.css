@@ -1,0 +1,73 @@
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contactus{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+    font-size: 20px;
+    color: #f44336;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.contact-col div p{
+    padding: 0;
+}
+
+.contact-col div h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight:400;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid white;
+    padding: 12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 2px solid #f44336;
+    background-color:#f44336 ;
+    transition: 0.8s;
+}
+
+.contact-col input , .contact-col textarea{
+    width: 100%;
+    padding: 17px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
